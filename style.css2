@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-img {
+  width: 320px;   /* 🔥 Reduced */
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Buttons */
+.primary {
+  padding: 10px 18px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.secondary {
+  padding: 10px 18px;
+  border: 1px solid #4f46e5;
+  color: #4f46e5;
+  background: transparent;
+  border-radius: 20px;
+}
+
+/* Courses */
+.courses {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.course-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course-card {
+  width: 280px;   /* 🔥 Controlled width */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* IMAGE FIX */
+.course-card img {
+  width: 100%;
+  height: 160px;   /* 🔥 Fixed height */
+  object-fit: cover;  /* 🔥 Prevent stretching */
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+}

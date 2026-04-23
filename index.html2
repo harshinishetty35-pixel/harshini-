@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduPro - Premium Courses</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">EduPro</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="cta-btn">Get Started</button>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Upgrade Your Skills with Industry-Level Courses</h1>
+    <p>Learn from experts and build real-world skills.</p>
+    <div class="hero-buttons">
+      <button class="primary">Enroll Now</button>
+      <button class="secondary">Explore</button>
+    </div>
+  </div>
+  <img class="hero-img" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+</section>
+
+<section id="courses" class="courses">
+  <h2>Popular Courses</h2>
+  <div class="course-grid">
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+      <h3>Web Development</h3>
+      <p>Build real websites.</p>
+      <button>Enroll</button>
+    </div>
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+      <h3>Data Science</h3>
+      <p>Learn AI & ML.</p>
+      <button>Enroll</button>
+    </div>
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+      <h3>UI/UX Design</h3>
+      <p>Create designs.</p>
+      <button>Enroll</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 EduPro</p>
+</footer>
+
+</body>
+</html>
